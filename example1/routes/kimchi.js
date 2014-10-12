@@ -1,3 +1,5 @@
+var logger = require('../modules/winston/logger.js').getLogger();
+
 var express = require('express');
 var router = express.Router();
 
